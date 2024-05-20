@@ -60,15 +60,15 @@ DOWNLOADER_MIDDLEWARES = {
     # 'exchange_rates.middlewares.RotateProxyMiddleware': 543,
     # 'rotating_proxies.middlewares.RotatingProxyMiddleware': 300,
     # 'rotating_proxies.middlewares.BanDetectionMiddleware': 301,
-    # 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware': 543,
-    'scrapy.downloadermiddlewares.retry.RetryMiddleware': 90,
-    'scrapy_proxies.RandomProxy': 100,
-    'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware': 110,
+    'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware': 543,
+    # 'scrapy.downloadermiddlewares.retry.RetryMiddleware': 90,
+    # 'scrapy_proxies.RandomProxy': 100,
+    # 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware': 110,
 }
 
-PROXY_LIST = 'proxyscrape_premium_http_proxies.txt'
+# PROXY_LIST = 'proxyscrape_premium_http_proxies.txt'
 
-PROXY_MODE = 0
+# PROXY_MODE = 0
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html

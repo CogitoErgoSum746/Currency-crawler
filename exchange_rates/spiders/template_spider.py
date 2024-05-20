@@ -25,11 +25,10 @@ class TemplateSpider(scrapy.Spider):
     custom_settings = {
         'DOWNLOAD_DELAY': 0.25,
         'CONCURRENT_REQUESTS_PER_DOMAIN': 1,
-        'HTTP_PROXY': 'http://69.58.2.135:3128',
         'PROXY_POOL_ENABLED': False,
-        'RETRY_ENABLED': False,
-        'RETRY_TIMES': 2,   
-        'LOG_LEVEL': 'DEBUG',
+        'RETRY_ENABLED': True,
+        'RETRY_TIMES': 5,   
+        'LOG_LEVEL': 'ERROR',
     }
 
     # handle_httpstatus_list = [500, 502, 503, 504, 400, 404, 429]
